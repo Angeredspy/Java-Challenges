@@ -5,8 +5,7 @@ public class IntEqualityPrinter {
      } else if  
          ((x == z) && (z == y)) { 
              System.out.println("All numbers are equal"); 
-         } else if   
-             ((x != z) && (z != y) && (x != y)) { 
+         } else if ((x != z) && (z != y) && (x != y)) { 
                  System.out.println("All numbers are different");
              } else  
                  System.out.println("Neither all are equal or different"); }
