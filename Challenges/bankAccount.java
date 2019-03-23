@@ -7,6 +7,16 @@ private String customerName;
 private String email; 
 private String phoneNumber;
 
+public BankAccount (String accountNumber, double balance, String customerName,
+	String email, String phoneNumber) {
+	System.out.println("Calling the constructor"); 
+	this.accountNumber = accountNumber; 
+	this.balance = balance; 
+	this.customerName = customerName; 
+	this.email = email; 
+	this.phoneNumber = phoneNumber;
+}
+	
 public String getAccountNumber() {
 	return accountNumber;
 }
