@@ -58,7 +58,7 @@ public double withdrawAmount(double amount) {
 	return amount;
 } 
 }
-//public static void main(String[] args) { Sample depiction main method
+//public static void main(String[] args) { Sample depiction of a possible main method
 //BankAccount bobsBankAccount = new BankAccount(); 
 //bobsBankAccount.setAccountNumber("12345678");
 //bobsBankAccount.depositAmount(1000);
